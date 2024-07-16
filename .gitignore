@@ -1,0 +1,26 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore node_modules and other dependencies
+node_modules/
+vendor/
+
+# Ignore compiled files
+*.o
+*.out
+*.class
+
+# Ignore distribution files
+dist/
+build/

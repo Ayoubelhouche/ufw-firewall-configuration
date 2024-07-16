@@ -1,0 +1,16 @@
+# Basic UFW Rules
+
+# Allow SSH
+sudo ufw allow ssh
+
+# Allow HTTP
+sudo ufw allow 80/tcp
+
+# Allow HTTPS
+sudo ufw allow 443/tcp
+
+# Deny all other incoming traffic
+sudo ufw default deny incoming
+
+# Allow all outgoing traffic
+sudo ufw default allow outgoing
